@@ -10980,6 +10980,21 @@ html {
   max-width: 30rem;
 }
 
+.calloutArt {
+  padding: 15rem 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.calloutArt h2, .calloutArt .h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  display: block;
+  max-width: 30rem;
+}
+
+
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -11024,7 +11039,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/paperplanes.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/stars.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11039,6 +11054,60 @@ footer.footer .social-link:hover {
     height: 100vh;
   }
   .masthead h1, .masthead .h1 {
+    font-size: 5.5rem;
+  }
+}
+
+.mastheadTech {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/paperplanes.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mastheadTech h1, .mastheadTech .h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 992px) {
+  .mastheadTech {
+    height: 100vh;
+  }
+  .mastheadTech h1, .mastheadTech .h1 {
+    font-size: 5.5rem;
+  }
+}
+
+.mastheadArt {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mastheadArt h1, .mastheadArt .h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 992px) {
+  .mastheadArt {
+    height: 100vh;
+  }
+  .mastheadArt h1, .mastheadArt .h1 {
     font-size: 5.5rem;
   }
 }
