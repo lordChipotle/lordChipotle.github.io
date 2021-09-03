@@ -10979,6 +10979,19 @@ html {
   display: block;
   max-width: 30rem;
 }
+.calloutMS {
+  padding: 15rem 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/MScallout.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 150%;
+}
+.calloutMS h2, .calloutMS .h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  display: block;
+  max-width: 30rem;
+}
 
 .calloutArt {
   padding: 15rem 0;
@@ -11081,6 +11094,54 @@ footer.footer .social-link:hover {
     height: 100vh;
   }
   .mastheadTech h1, .mastheadTech .h1 {
+    font-size: 5.5rem;
+  }
+}
+@import "compass/css3";
+@import url(https://fonts.googleapis.com/css?family=Sanchez:400italic,400);
+
+.brooks {
+  position: relative;
+  font-family: 'Sanchez', serif;
+  font-size: 2.4em;
+  line-height: 1.5em;
+  font-style: italic;
+  /* ::before{
+      content: '\201C';
+      position: absolute;
+      top: 0.25em;
+      left: -0.15em;
+      color: darken(hsl(50, 5, 97), 7%);
+      font-size: 6em;
+      z-index: -1;
+   } */
+}
+blockquote {
+  margin-bottom: 3em;
+}
+.mastheadMicrosoft {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 16rem;
+  padding-bottom: 1rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/microsoft-keyboard.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mastheadMicrosoft h1, .mastheadMicrosoft .h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 992px) {
+  .mastheadMicrosoft {
+    height: 100vh;
+  }
+  .mastheadMicrosoft h1, .mastheadMicrosoft .h1 {
     font-size: 5.5rem;
   }
 }
